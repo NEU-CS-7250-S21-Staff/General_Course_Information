@@ -227,12 +227,16 @@ These steps are only recommended if you plan to use JupyterLab often, for a larg
 
 ### Altair issues
 
+* If you run into issues with Altair's max rows limit, try reformatting the data before sending it to Altair. Alternatively use `alt.data_transformers.enable('csv')` in your notebook and make sure that `altair-data-server` is installed. It should be in your `requirements.txt` file already.
+
 * Read the relevant part of [the Altair documentation](https://altair-viz.github.io/user_guide/API.html).
 
 * Check [the UW Visualization Curriculum debugging guide](https://github.com/uwdata/visualization-curriculum/blob/master/altair_debugging.ipynb) and the [Altair FAQ](https://altair-viz.github.io/user_guide/faq.html) for answers.
 
 * The developers of Altair sometimes release a new version via pip and update [the documentation](https://altair-viz.github.io/user_guide/API.html) before it is stable.
     Note that the documentation version and Altair version you are using may be out of sync. (See the top-left of the documentation page for the version number, and in Jupyter Lab run `alt.__version__` in a cell to see the Altair version). In this assignment, using the `requirements.txt` file we are asking you to install a particular version to avoid some issues like this.
+
+
 
 ### General troubleshooting advice
 
