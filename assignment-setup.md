@@ -27,6 +27,8 @@ These are intended for instructors and teaching staff only.
 
 1. Check all hyperlinks by hand, using the [W3 Link Checker](https://validator.w3.org/checklink), or using the GitHub actions validations.
 
+1. Update the year in `LICENSE`.
+
 1. Commit and push changes.
 
 1. Make the repository Public.
