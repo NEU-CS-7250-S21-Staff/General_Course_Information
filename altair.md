@@ -86,7 +86,7 @@ These steps are only recommended if you plan to use JupyterLab often, for a larg
     jupyter labextension install @ijmbarr/jupyterlab_spellchecker
     ```
 
-* To install both of the above wtih one (faster) command run:
+* To install both of the above with one (faster) command run:
 
     ```zsh
     jupyter labextension install @jupyterlab/toc @ijmbarr/jupyterlab_spellchecker
