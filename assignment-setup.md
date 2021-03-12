@@ -2,6 +2,14 @@
 
 These are intended for instructors and teaching staff only.
 
+- [Setup instructions for visualization course assignments](#setup-instructions-for-visualization-course-assignments)
+- [Create repo](#create-repo)
+- [Update the assignment](#update-the-assignment)
+- [GitHub Pages (web development & D3 only)](#github-pages-web-development--d3-only)
+- [Clear the git commit history](#clear-the-git-commit-history)
+- [Template repository](#template-repository)
+- [GitHub Classroom](#github-classroom)
+- [Grading](#grading)
 # Create repo
 
 1. Go to this year's staff GitHub organization. E.g., https://github.com/NEU-CS-7250-S21-Staff/
@@ -105,3 +113,11 @@ In order to make things as straightforward for the students as possible, we want
 1. Enable the assignment invitation URL.
 
 1. In the Canvas assignment, replace the old assignment invitation URL and template repo link URLs with the new ones.
+
+# Grading
+
+This bookmarklet takes you from a GitHub repo to the Files pane of the first pull request — i.e., the one GitHub Classroom creates for you:
+```
+javascript:(function () {var path = window.location.pathname; var newPath = path + '/pull/1/files'; window.location.href = newPath;})();
+```
+
